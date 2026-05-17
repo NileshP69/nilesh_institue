@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight, BookOpen, Phone } from "lucide-react";
+import bannerImg from "@/assets/image/institute_banner.png";
+import logoImg from "@/assets/image/logo.png";
 
 export default function Hero() {
   return (
@@ -11,7 +13,7 @@ export default function Hero() {
       {/* Background decoration & Banner */}
       <div className="absolute inset-0 w-full h-full">
         <Image 
-          src="/image/institute_banner.png" 
+          src={bannerImg} 
           alt="Institute Banner" 
           fill
           priority
@@ -36,7 +38,7 @@ export default function Hero() {
             transition={{ type: "spring", stiffness: 300 }}
           >
             <Image 
-              src="/image/logo.png" 
+              src={logoImg} 
               alt="Shri Amar Computer Institution Logo" 
               fill
               className="object-contain p-2"

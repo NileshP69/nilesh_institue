@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import logoImg from "@/assets/image/logo.png";
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -40,7 +41,7 @@ export default function Navbar() {
           <Link href="/" className="flex items-center gap-3">
             <div className="relative w-10 h-10 md:w-12 md:h-12 flex items-center justify-center bg-white rounded-full p-1 shadow-sm overflow-hidden">
               <Image 
-                src="/image/logo.png" 
+                src={logoImg} 
                 alt="Shri Amar Computer Institution Logo" 
                 fill
                 className="object-contain rounded-full"

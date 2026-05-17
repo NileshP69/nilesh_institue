@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { MapPin, Phone, Mail, ArrowRight } from "lucide-react";
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import logoImg from "@/assets/image/logo.png";
 
 export default function Footer() {
   return (
@@ -13,7 +14,7 @@ export default function Footer() {
             <Link href="/" className="flex items-center gap-3 mb-2">
               <div className="relative w-12 h-12 bg-white rounded-full flex items-center justify-center p-1 overflow-hidden">
                 <Image 
-                  src="/image/logo.png" 
+                  src={logoImg} 
                   alt="Shri Amar Computer Institution Logo" 
                   fill
                   className="object-contain rounded-full"
