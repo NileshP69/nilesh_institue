@@ -49,7 +49,7 @@ export default function UniversityAssociation() {
             </div>
 
             {/* Certificate Body */}
-            <div className="p-8 md:p-12 text-center bg-[url('/certificate-bg-pattern.svg')] bg-center bg-no-repeat bg-cover bg-opacity-5">
+            <div className="p-8 md:p-12 text-center bg-white">
               
               <div className="inline-block border-2 border-gray-200 rounded-lg px-8 py-4 mb-10 bg-gray-50">
                 <span className="block text-gray-500 text-sm uppercase font-semibold mb-1">
