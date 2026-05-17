@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { MapPin, Phone, Mail, ArrowRight } from "lucide-react";
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 
@@ -10,8 +11,13 @@ export default function Footer() {
           {/* About Section */}
           <div className="flex flex-col gap-4">
             <Link href="/" className="flex items-center gap-3 mb-2">
-              <div className="w-10 h-10 bg-[var(--color-primary)] rounded-full flex items-center justify-center text-white font-bold text-xl">
-                SA
+              <div className="relative w-12 h-12 bg-white rounded-full flex items-center justify-center p-1 overflow-hidden">
+                <Image 
+                  src="/image/logo.png" 
+                  alt="Shri Amar Computer Institution Logo" 
+                  fill
+                  className="object-contain rounded-full"
+                />
               </div>
               <div className="flex flex-col">
                 <span className="font-bold text-lg text-white">Shri Amar</span>

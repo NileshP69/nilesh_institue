@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -37,9 +38,13 @@ export default function Navbar() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3">
-            {/* We will add an actual image logo later */}
-            <div className="w-10 h-10 bg-[var(--color-primary)] rounded-full flex items-center justify-center text-white font-bold text-xl">
-              SA
+            <div className="relative w-10 h-10 md:w-12 md:h-12 flex items-center justify-center bg-white rounded-full p-1 shadow-sm overflow-hidden">
+              <Image 
+                src="/image/logo.png" 
+                alt="Shri Amar Computer Institution Logo" 
+                fill
+                className="object-contain rounded-full"
+              />
             </div>
             <div className="flex flex-col">
               <span className={`font-bold text-lg md:text-xl leading-tight ${isScrolled ? "text-[var(--color-primary)]" : "text-[var(--color-primary)]"}`}>

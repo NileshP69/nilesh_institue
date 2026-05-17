@@ -2,13 +2,21 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight, BookOpen, Phone } from "lucide-react";
 
 export default function Hero() {
   return (
     <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-[#1E3A8A] via-[#1e40af] to-[#0f172a]">
-      {/* Background decoration */}
+      {/* Background decoration & Banner */}
       <div className="absolute inset-0 w-full h-full">
+        <Image 
+          src="/image/institute_banner.png" 
+          alt="Institute Banner" 
+          fill
+          priority
+          className="object-cover opacity-20 mix-blend-overlay"
+        />
         <div className="absolute top-20 left-10 w-72 h-72 bg-blue-400 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob" />
         <div className="absolute top-20 right-10 w-72 h-72 bg-purple-400 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000" />
         <div className="absolute -bottom-8 left-20 w-72 h-72 bg-indigo-400 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000" />
@@ -23,13 +31,16 @@ export default function Hero() {
         >
           {/* Logo Placeholder */}
           <motion.div 
-            className="w-24 h-24 md:w-32 md:h-32 bg-white rounded-full flex items-center justify-center mb-8 shadow-2xl p-2"
+            className="w-24 h-24 md:w-32 md:h-32 bg-white rounded-full flex items-center justify-center mb-8 shadow-2xl p-2 relative overflow-hidden"
             whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 300 }}
           >
-            <div className="w-full h-full bg-[var(--color-primary)] rounded-full flex items-center justify-center text-white font-bold text-3xl md:text-4xl">
-              SA
-            </div>
+            <Image 
+              src="/image/logo.png" 
+              alt="Shri Amar Computer Institution Logo" 
+              fill
+              className="object-contain p-2"
+            />
           </motion.div>
 
           <motion.h2 
