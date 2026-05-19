@@ -68,9 +68,9 @@ export default function ApplyPage() {
 
     // Guard: check if credentials are still placeholders
     if (
-      EMAILJS_SERVICE_ID === "YOUR_SERVICE_ID" ||
-      EMAILJS_TEMPLATE_ID === "YOUR_TEMPLATE_ID" ||
-      EMAILJS_PUBLIC_KEY === "YOUR_PUBLIC_KEY"
+      !EMAILJS_SERVICE_ID ||
+!EMAILJS_TEMPLATE_ID ||
+!EMAILJS_PUBLIC_KEY
     ) {
       setError("EmailJS is not configured yet. Please add your Template ID and Public Key.");
       setIsSubmitting(false);
