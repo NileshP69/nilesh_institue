@@ -42,6 +42,7 @@ export default function Testimonials() {
   useEffect(() => {
     const timer = setInterval(nextTestimonial, 5000);
     return () => clearInterval(timer);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
@@ -94,7 +95,7 @@ export default function Testimonials() {
                     ))}
                   </div>
                   <p className="text-xl md:text-2xl italic leading-relaxed text-white/90 mb-8 font-light">
-                    "{testimonials[currentIndex].text}"
+                    &quot;{testimonials[currentIndex].text}&quot;
                   </p>
                   <div>
                     <h4 className="text-xl font-bold text-white">{testimonials[currentIndex].name}</h4>

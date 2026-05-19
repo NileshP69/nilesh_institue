@@ -72,7 +72,7 @@ export default function Hero() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.6, duration: 0.8 }}
           >
-            "Empowering Rural Education Through Technology"
+            &quot;Empowering Rural Education Through Technology&quot;
           </motion.p>
 
           <motion.div 
