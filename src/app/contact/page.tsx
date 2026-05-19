@@ -23,7 +23,7 @@ export default function ContactPage() {
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Contact Us</h1>
           <p className="text-blue-100 max-w-2xl mx-auto text-lg">
-            We're here to answer any questions you may have.
+            We&apos;re here to answer any questions you may have.
           </p>
         </div>
       </div>

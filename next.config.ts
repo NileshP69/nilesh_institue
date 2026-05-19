@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const isGithubActions = process.env.GITHUB_ACTIONS || false;
 
-let repo = "nilesh_institue";
+const repo = "nilesh_institue";
 
 const nextConfig: NextConfig = {
   output: "export",
