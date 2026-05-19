@@ -15,20 +15,20 @@ export default function Footer() {
               <div className="relative w-12 h-12 bg-white rounded-full flex items-center justify-center p-1 overflow-hidden">
                 <Image 
                   src={logoImg} 
-                  alt="Shri Amar Computer Institution Logo" 
+                  alt="Nilesh Institute Logo" 
                   fill
                   className="object-contain rounded-full"
                 />
               </div>
               <div className="flex flex-col">
-                <span className="font-bold text-lg text-white">Shri Amar</span>
+                <span className="font-bold text-lg text-white">Nilesh Institute</span>
                 <span className="text-xs font-semibold tracking-wide text-gray-400">
                   Computer Institution
                 </span>
               </div>
             </Link>
             <p className="text-sm leading-relaxed text-gray-400">
-              Empowering Rural Education Through Technology. A premier institution running under Shri Amar Shiksha Kalyan Samiti, Lalgaon.
+              Empowering Rural Education Through Technology. A premier institution running under Shri Amar Shiksha Kalyan Samiti, Manpur Gaya Bihar.
             </p>
             <div className="flex gap-4 mt-2">
               <a href="#" className="w-8 h-8 rounded-full bg-gray-800 flex items-center justify-center hover:bg-[var(--color-primary)] hover:text-white transition-colors">
@@ -114,7 +114,7 @@ export default function Footer() {
             <ul className="flex flex-col gap-4 text-sm">
               <li className="flex items-start gap-3">
                 <MapPin size={18} className="text-[var(--color-primary)] shrink-0 mt-0.5" />
-                <span>N.H. 135 B.D. Kyoti Road, New Bus Stand, Lalgaon, Rewa (M.P.)</span>
+                <span>Manpur Gaya Bihar</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={18} className="text-[var(--color-primary)] shrink-0" />
@@ -131,7 +131,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500">
           <p>
-            &copy; {new Date().getFullYear()} Shri Amar Computer Institution, Lalgaon. All rights reserved.
+            &copy; {new Date().getFullYear()} Nilesh Institute, Manpur Gaya Bihar. All rights reserved.
           </p>
           <div className="flex gap-4">
             <Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link>

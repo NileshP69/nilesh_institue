@@ -43,7 +43,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-bold text-gray-900 mb-1">Our Location</h3>
-                    <p className="text-gray-600">N.H. 135 B.D. Kyoti Road,<br/>New Bus Stand, Lalgaon,<br/>Rewa (M.P.)</p>
+                    <p className="text-gray-600">Manpur Gaya Bihar</p>
                   </div>
                 </div>
 

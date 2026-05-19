@@ -42,14 +42,14 @@ export default function Navbar() {
             <div className="relative w-10 h-10 md:w-12 md:h-12 flex items-center justify-center bg-white rounded-full p-1 shadow-sm overflow-hidden">
               <Image 
                 src={logoImg} 
-                alt="Shri Amar Computer Institution Logo" 
+                alt="Nilesh Institute Logo" 
                 fill
                 className="object-contain rounded-full"
               />
             </div>
             <div className="flex flex-col">
               <span className={`font-bold text-lg md:text-xl leading-tight ${isScrolled ? "text-[var(--color-primary)]" : "text-[var(--color-primary)]"}`}>
-                Shri Amar
+                Nilesh Institute
               </span>
               <span className={`text-xs md:text-sm font-semibold tracking-wide ${isScrolled ? "text-gray-600 dark:text-gray-300" : "text-gray-700 dark:text-gray-200"}`}>
                 Computer Institution

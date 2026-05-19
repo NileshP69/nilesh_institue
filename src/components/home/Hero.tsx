@@ -39,7 +39,7 @@ export default function Hero() {
           >
             <Image 
               src={logoImg} 
-              alt="Shri Amar Computer Institution Logo" 
+              alt="Nilesh Institute Logo" 
               fill
               className="object-contain p-2"
             />
@@ -60,7 +60,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.8 }}
           >
-            Shri Amar Computer <br className="hidden md:block" />
+            Nilesh Institute <br className="hidden md:block" />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-yellow-500">
               Institution
             </span>

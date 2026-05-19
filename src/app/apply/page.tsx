@@ -56,7 +56,7 @@ export default function ApplyPage() {
       `📚 *Course:* ${data.course.toUpperCase()}\n` +
       `🏫 *Qualification:* ${data.qualification}\n` +
       `🏠 *Address:* ${data.address}\n\n` +
-      `_Sent from Shri Amar Computer Institution Website_`
+      `_Sent from Nilesh Institute Website_`
     );
     window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`, "_blank");
   };
@@ -182,7 +182,7 @@ export default function ApplyPage() {
               <h2 className="text-xl font-bold text-gray-900 mb-4">Offline Admission</h2>
               <p className="text-gray-600 mb-6 text-sm leading-relaxed">
                 Prefer offline submission? Download the admission form, print, fill it, and
-                submit at our Lalgaon office with required documents.
+                submit at our Manpur Gaya Bihar office with required documents.
               </p>
               <a
                 href="/admission-form"

@@ -34,7 +34,7 @@ export default function GalleryPage() {
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Photo Gallery</h1>
           <p className="text-blue-100 max-w-2xl mx-auto text-lg">
-            Glimpses of life at Shri Amar Computer Institution.
+            Glimpses of life at Nilesh Institute.
           </p>
         </div>
       </div>

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { BookOpen, Clock, GraduationCap, CheckCircle } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Courses | Shri Amar Computer Institution",
+  title: "Courses | Nilesh Institute",
   description: "Explore our university-recognized computer courses including PGDCA, DCA, and Basic Computer.",
 };
 
@@ -108,7 +108,7 @@ export default function CoursesPage() {
                     <div className="mt-10 p-6 bg-yellow-50 border border-yellow-100 rounded-xl">
                       <h4 className="font-bold text-gray-900 mb-2">Admission Process</h4>
                       <p className="text-sm text-gray-700 mb-4">
-                        Admissions are currently open. Download the form, fill it, and submit it at our Lalgaon branch.
+                        Admissions are currently open. Download the form, fill it, and submit it at our Manpur Gaya Bihar branch.
                       </p>
                       <Link 
                         href="/apply"

@@ -17,14 +17,14 @@ export default function Testimonials() {
       id: 2,
       name: "Priya Sharma",
       course: "DCA Student",
-      text: "Coming from a rural background, I was afraid of computers. But the supportive environment at Shri Amar Institution made learning so easy and fun.",
+      text: "Coming from a rural background, I was afraid of computers. But the supportive environment at Nilesh Institute made learning so easy and fun.",
       rating: 5
     },
     {
       id: 3,
       name: "Amit Patel",
       course: "CPCT Preparation",
-      text: "Best computer institute in Lalgaon. The typing practice and mock tests helped me clear my CPCT exam in the first attempt.",
+      text: "Best computer institute in Manpur Gaya Bihar. The typing practice and mock tests helped me clear my CPCT exam in the first attempt.",
       rating: 4
     }
   ];

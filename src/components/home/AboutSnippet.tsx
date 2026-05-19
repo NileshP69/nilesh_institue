@@ -45,7 +45,7 @@ export default function AboutSnippet() {
             </div>
             
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 leading-tight">
-              A Legacy of Educational Excellence in Lalgaon
+              A Legacy of Educational Excellence in Manpur Gaya Bihar
             </h2>
             
             <div className="space-y-6 text-gray-600 text-lg">
@@ -55,7 +55,7 @@ export default function AboutSnippet() {
               </p>
               
               <p>
-                <strong>Shri Amar Computer Institution, Lalgaon</strong> is running under the prestigious <strong>Shri Amar Shiksha Kalyan Samiti</strong>. We are dedicated to bridging the digital divide by offering comprehensive computer education to students in rural and semi-urban areas.
+                <strong>Nilesh Institute, Manpur Gaya Bihar</strong> is running under the prestigious <strong>Shri Amar Shiksha Kalyan Samiti</strong>. We are dedicated to bridging the digital divide by offering comprehensive computer education to students in rural and semi-urban areas.
               </p>
               
               <p>

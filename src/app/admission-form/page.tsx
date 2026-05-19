@@ -49,11 +49,11 @@ export default function AdmissionFormPrint() {
               </div>
               <div>
                 <h1 className="text-xl font-bold text-[#1E3A8A] leading-tight">
-                  Shri Amar Computer Institution
+                  Nilesh Institute
                 </h1>
                 <p className="text-sm text-gray-600">श्री अमर कंप्यूटर इंस्टीट्यूशन, लालगाँव</p>
                 <p className="text-xs text-gray-500 mt-1">
-                  N.H. 135, B.D. Kyoti Road, New Bus Stand, Lalgaon, Rewa (M.P.)
+                  Manpur Gaya Bihar
                 </p>
                 <p className="text-xs text-gray-500">
                   📞 +91 9424927574 | +91 7000685215 &nbsp;|&nbsp; ✉ Saics8657@gmail.com
@@ -150,7 +150,7 @@ export default function AdmissionFormPrint() {
 
           {/* Declaration */}
           <div className="mb-6 bg-gray-50 border border-gray-300 rounded p-3 text-xs text-gray-600 leading-relaxed">
-            <strong>Declaration:</strong> I hereby declare that all the information furnished above is true and correct to the best of my knowledge and belief. I understand that my admission is subject to the rules and regulations of Shri Amar Computer Institution and will be liable to cancellation if any of the information provided is found to be false.
+            <strong>Declaration:</strong> I hereby declare that all the information furnished above is true and correct to the best of my knowledge and belief. I understand that my admission is subject to the rules and regulations of Nilesh Institute and will be liable to cancellation if any of the information provided is found to be false.
           </div>
 
           {/* Signatures */}

@@ -2,8 +2,8 @@ import { Metadata } from "next";
 import { CheckCircle } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "About Us | Shri Amar Computer Institution",
-  description: "Learn more about Shri Amar Computer Institution, our vision, mission, and management committee.",
+  title: "About Us | Nilesh Institute",
+  description: "Learn more about Nilesh Institute, our vision, mission, and management committee.",
 };
 
 export default function AboutPage() {
@@ -14,7 +14,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">About Our Institute</h1>
           <p className="text-blue-100 max-w-2xl mx-auto text-lg">
-            A Legacy of Educational Excellence in Lalgaon since establishment.
+            A Legacy of Educational Excellence in Manpur Gaya Bihar since establishment.
           </p>
         </div>
       </div>
@@ -23,7 +23,7 @@ export default function AboutPage() {
         <div className="bg-white rounded-2xl shadow-sm p-8 md:p-12 mb-12 border border-gray-100">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Introduction</h2>
           <p className="text-gray-600 mb-4 leading-relaxed">
-            <strong>Shri Amar Computer Institution, Lalgaon</strong> is running under the prestigious <strong>Shri Amar Shiksha Kalyan Samiti</strong>. We are dedicated to bridging the digital divide by offering comprehensive computer education to students in rural and semi-urban areas.
+            <strong>Nilesh Institute, Manpur Gaya Bihar</strong> is running under the prestigious <strong>Shri Amar Shiksha Kalyan Samiti</strong>. We are dedicated to bridging the digital divide by offering comprehensive computer education to students in rural and semi-urban areas.
           </p>
           <p className="text-gray-600 mb-8 leading-relaxed">
             Associated with the esteemed <strong>Makhanlal Chaturvedi National University of Journalism & Communication, Bhopal</strong>, we ensure our courses meet high academic standards. Our association number is MCRPSV/ASI/JAN/2018/8657.

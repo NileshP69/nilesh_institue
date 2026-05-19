@@ -19,14 +19,14 @@ const notoSansDevanagari = Noto_Sans_Devanagari({
 });
 
 export const metadata: Metadata = {
-  title: "Shri Amar Computer Institution, Lalgaon | Best Computer Institute",
-  description: "Empowering Rural Education Through Technology. Shri Amar Computer Institution, Lalgaon runs under Shri Amar Shiksha Kalyan Samiti. Offering courses like PGDCA, DCA, and Basic Computer.",
-  keywords: "Computer Institute, Lalgaon, Rewa, PGDCA, DCA, CPCT, Shri Amar Computer Institution, Education",
+  title: "Nilesh Institute, Manpur Gaya Bihar | Best Computer Institute",
+  description: "Empowering Rural Education Through Technology. Nilesh Institute, Manpur Gaya Bihar runs under Shri Amar Shiksha Kalyan Samiti. Offering courses like PGDCA, DCA, and Basic Computer.",
+  keywords: "Computer Institute, Manpur, Gaya, Bihar, PGDCA, DCA, CPCT, Nilesh Institute, Education",
   openGraph: {
-    title: "Shri Amar Computer Institution, Lalgaon",
+    title: "Nilesh Institute, Manpur Gaya Bihar",
     description: "Empowering Rural Education Through Technology. Offering top-tier computer education.",
     url: "https://shriamarcomputer.com",
-    siteName: "Shri Amar Computer Institution",
+    siteName: "Nilesh Institute",
     locale: "en_IN",
     type: "website",
   },
